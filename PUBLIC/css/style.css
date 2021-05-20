@@ -5,7 +5,7 @@ body{
     font-family: sans-serif;
 }
 form{
-    height: 10vh;
+    height: 7vh;
     display: flex;
     width: 100%;
     margin-top: 36%;
@@ -32,14 +32,24 @@ form{
     top: 0;
 }
 #text{
-    width: 89%;
+    width: 80%;
 }
 #submit{
-    width: 11%;
+    width: 20%;
     background: rgb(0, 41, 153);
     color: aliceblue;
     font-size: 20px;
 }
 li{
     list-style: none;
+}
+ul{
+    display: block;
+}
+.chart{
+    background: rgb(201, 40, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 40px;
+    float: right;
 }
