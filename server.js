@@ -3,9 +3,7 @@ const IP = "192.168.88.2";
 const URL = "http://"+ IP +":"+PORT;
 const express = require("express");
 const app = express();
-app.listen(PORT =>{
-    console.log("HELLO ON PORT " + PORT)
+app.listen(PORT, function (){
+    console.log("HELLO ON PORT  " + PORT)
 })
-app.get("/login",(req,res) =>{
-    res.send("PUBLIC");
-})
+app.use(express.static("PUBLIC"));
