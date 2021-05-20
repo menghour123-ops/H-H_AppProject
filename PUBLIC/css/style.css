@@ -32,10 +32,10 @@ form{
     top: 0;
 }
 #text{
-    width: 89%;
+    width: 80%;
 }
 #submit{
-    width: 11%;
+    width: 20%;
     background: rgb(0, 41, 153);
     color: aliceblue;
     font-size: 20px;
